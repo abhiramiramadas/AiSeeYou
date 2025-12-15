@@ -101,8 +101,6 @@ Thresholds are adjustable if you want it to calm down.
 | Math | unfortunately unavoidable |
 ------------------------------------------
 🗂️ Project Structure (mostly intentional)
-------------------------------------------
-## 🗂️ Project Structure (organized chaos)
 
 ```text
 AiSeeYou/
