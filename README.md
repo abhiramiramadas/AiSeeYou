@@ -91,8 +91,6 @@ Thresholds are adjustable if you want it to calm down.
 🧪 Tech Stack (for credibility)
 -------------------------------
 
-## 🧪 Tech Stack (for credibility)
-
 | Thing | Why it exists |
 |------|---------------|
 | Python | personality choice |
@@ -101,52 +99,55 @@ Thresholds are adjustable if you want it to calm down.
 | NumPy | silent workhorse |
 | Rule-based logic | because labeled accident datasets are a myth |
 | Math | unfortunately unavoidable |
-
-
+------------------------------------------
 🗂️ Project Structure (mostly intentional)
 ------------------------------------------
-
 ## 🗂️ Project Structure (organized chaos)
 
+```text
 AiSeeYou/
 │
 ├── Accident-Detection/
 │   ├── detection.py        # where the paranoia lives
-│   ├── alert.py            # screams internally (sometimes externally)
+│   ├── alert.py            # screams internally
 │   ├── config.py           # knobs to tune the anxiety
-│   ├── main.py             # main character energy
-│   ├── haversine-gui.py    # distance maths because earth is round (sadly)
-│   └── OSM.py              # maps, but optional. vibes-based navigation
+│   ├── main.py             # main character
+│   ├── haversine-gui.py    # distance maths because earth is round
+│   └── OSM.py              # maps, but optional
 │
 ├── models/
-│   └── (put YOLO weights here manually, GitHub said “absolutely not”)
+│   └── (put YOLO weights here manually)
 │
-├── Requirements.txt        # things Python needs to survive
-└── README.md               # this document. you are reading it.
-
+├── Requirements.txt
+└── README.md
+```
 
 🐍 Setup (if you’re brave)
 --------------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/abhiramiramadas/AiSeeYou.git  cd AiSeeYou  python -m venv venv  venv\Scripts\activate  pip install -r Requirements.txt   `
+```
+git clone https://github.com/abhiramiramadas/AiSeeYou.git
+cd AiSeeYou
+python -m venv venv
+venv\Scripts\activate
+pip install -r Requirements.txt
+```
 
 ### Model Weights
 
 Download YOLO weights (e.g. yolov8n.pt) and place them inside:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   models/   `
+```
+models/
+```
 
 They are **not** included because:
 
 *   GitHub yelled at me
     
 *   and honestly, fair
-    
 
 ▶️ Running It
 -------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python Accident-Detection/main.py   `
+``` python Accident-Detection/main.py ```
 
 You can tweak thresholds inside config.py if the system is:
 
@@ -206,7 +207,7 @@ Yet.
 👩‍💻 Author
 ------------
 
-**Abhirami Ramadas**B.Tech Information TechnologyLBS Institute of Technology for Women
+**Abhirami Ramadas**
 
 Built with:
 
