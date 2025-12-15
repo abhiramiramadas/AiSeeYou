@@ -91,12 +91,39 @@ Thresholds are adjustable if you want it to calm down.
 🧪 Tech Stack (for credibility)
 -------------------------------
 
-ThingWhy it existsPythonpersonality choiceYOLOv8because waiting is overratedOpenCVsees more than I doNumPysilent workhorseRule-based logicbecause labeled accident datasets are a mythMathunfortunately unavoidable
+## 🧪 Tech Stack (for credibility)
+
+| Thing | Why it exists |
+|------|---------------|
+| Python | personality choice |
+| YOLOv8 | because waiting is overrated |
+| OpenCV | sees more than I do |
+| NumPy | silent workhorse |
+| Rule-based logic | because labeled accident datasets are a myth |
+| Math | unfortunately unavoidable |
+
 
 🗂️ Project Structure (mostly intentional)
 ------------------------------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   AiSeeYou/  │  ├── Accident-Detection/  │   ├── detection.py        # where the paranoia lives  │   ├── alert.py            # screams internally  │   ├── config.py           # knobs to tune the anxiety  │   ├── main.py             # main character  │   ├── haversine-gui.py    # distance maths because earth is round  │   └── OSM.py              # maps, but optional  │  ├── models/  │   └── (put YOLO weights here manually)  │  ├── Requirements.txt  └── README.md   `
+## 🗂️ Project Structure (organized chaos)
+
+AiSeeYou/
+│
+├── Accident-Detection/
+│   ├── detection.py        # where the paranoia lives
+│   ├── alert.py            # screams internally (sometimes externally)
+│   ├── config.py           # knobs to tune the anxiety
+│   ├── main.py             # main character energy
+│   ├── haversine-gui.py    # distance maths because earth is round (sadly)
+│   └── OSM.py              # maps, but optional. vibes-based navigation
+│
+├── models/
+│   └── (put YOLO weights here manually, GitHub said “absolutely not”)
+│
+├── Requirements.txt        # things Python needs to survive
+└── README.md               # this document. you are reading it.
+
 
 🐍 Setup (if you’re brave)
 --------------------------
